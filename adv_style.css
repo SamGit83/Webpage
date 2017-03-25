@@ -1,12 +1,23 @@
 <style>
+	body {
+		  font: 20px Montserrat, sans-serif;
+		  line-height: 1.8;
+	}
 	/* Remove the navbar's default margin-bottom and rounded borders */ 
     .navbar {
       margin-bottom: 0;
       border-radius: 0;
+	  letter-spacing: 5px;
+	  background-color: #1abc9c;
     }
+	
+	.textspace {
+		letter-spacing: 0px;
+		background-color: #1abc9c;
+	}
     
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
-    .row.content {height: 450px}
+    .row.content {height: 507px}
     
     /* Set gray background color and 100% height */
     .sidenav {
@@ -14,12 +25,20 @@
       background-color: #f1f1f1;
       height: 100%;
     }
+	
+	.bg {
+		background-color: #1abc9c;
+		padding:57px;
+		color: white;
+	}
     
     /* Set black background color, white text and some padding */
     footer {
-      background-color: #555;
+      background-color: #1abc9c;
       color: white;
-      padding: 15px;
+      padding: 5px;
+	  font: 20px Montserrat, sans-serif;
+	  line-height: 1.8;
     }
     
     /* On small screens, set height to 'auto' for sidenav and grid */
